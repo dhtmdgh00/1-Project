@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* 공통시작 */
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h3 {
+    font-size: 26px;
+}
+/* 전체시작 */
+.wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* 헤더 시작 */
+.backGround {
+    background-image: url("../images/ASilentVoice_1920774.jpg");
+    height: 80px;
+}
+.img1 {
+    width: 1100px;
+    height: 80px;
+}
+.logoDiv {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.loginUl {
+    display: flex;
+}
+.loginUl>li {
+    margin-right: 20px;
+}
+/* 네비 */
+.border {
+    border-top: 0.3px solid #ccc;
+}
+.navi {
+    padding: 20px 0;
+    display: flex;
+}
+.navi>li {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* 첫영화보여주기 시작 */
+.video {
+    background-color: #000;
+}
+.videoUl {
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    color: #ffff;
+}
+.videoUl>li:first-child {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.videoUl>li {
+    font-size: 20px;
+}
+.img2 {
+    width: 100%;
+    height: 498px;
+}
+/* 영화들 보여주기 시작 */
+.movie2 {
+    display: flex;
+}
+.chart {
+    display: flex;
+}
+.chart>h3 {
+    margin-right: 20px;
+}
+.expected{
+    display: flex;
+}
+.movie {
+    display: flex;
+    padding-top: 50px;
+}
+
+.img3 {
+    height: 262px;
+}
+.movieDIv {
+    width: 250px;
+    position: relative;
+    margin-right: 80px;
+}
+.lastDiv{
+
+    margin-right: 0;
+}
+
+.btn {
+    display: none;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    bottom: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    left: 10%;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.btn2 {
+    display: none;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    color: #000;
+    bottom: 40%;
+    left: 10%;
+    background-color: rgb(251, 67, 87);
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.movieDIv:hover {
+    opacity: 0.7;
+}
+.movieDIv:hover .btn{
+    display: block;
+}
+.movieDIv:hover .btn2{
+    display: block;
+}
+.movie3 {
+    display: none;
+}
+/* 특별관시작 */
+.event {
+    font-weight: bold;
+    font-size: 26px;
+}
+.eventDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.pkg {
+    width: 350px;
+    border: 1px solid #e4e4e4;
+    padding: 0 30px;
+}
+.pkg:last-child {
+    margin-right: 0;
+}
+.pkg>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.pkg1 {
+    display: flex;
+}
+.imgdiv {
+    width: 75px;
+    height: 75px;
+}
+.image1{
+    width: 75px;
+    height: 75px;
+}
+.pkgUl {
+    margin-left: -15px;
+}
+.pkgli {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.money {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* 광고 */
+.ad {
+    padding: 100px 0;
+}
+.adimg {
+    width: 1200px;
+}
+/* footer */
+.bg {
+    background-color: #f8f8f8;
+}
+.footerUl {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.footerUl>li {
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 15px;
+}
+.address>li {
+    font-size: 12px;
+    padding: 5px 0;
+}
+.address>li:last-child {
+    padding-bottom: 50px;
+}
